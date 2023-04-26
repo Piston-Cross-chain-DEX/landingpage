@@ -56,6 +56,7 @@ nav b {
 nav ul {
   display: flex;
   list-style: none;
+  font-family:Laxend;
 }
 
 nav li {
@@ -86,16 +87,17 @@ nav a {
 }
 
 .hero-content {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.75);
   width:100%;
   height:100%;
   text-align: center;
   color: #ffffff;
   transition:0.3s;
+  font-family:Laxend;
 }
 
 .hero-content:hover {
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.8);
   width:100%;
   height:100%;
   text-align: center;
@@ -123,6 +125,7 @@ nav a {
   font-size: 18px;
   padding: 15px 30px;
   transition: all 0.3s ease;
+  font-family:Laxend;
 }
 
 .hero button:hover {
