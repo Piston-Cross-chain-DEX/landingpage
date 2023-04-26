@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Lexend, sans-serif;
   background-color: #2a2c34;
   color: #ffffff;
 }
@@ -56,7 +56,7 @@ nav b {
 nav ul {
   display: flex;
   list-style: none;
-  font-family:Laxend;
+  font-family:Lexend;
 }
 
 nav li {
@@ -80,10 +80,10 @@ nav a {
 }
 
 #main-img {
-  margin-top: 180px;
+  margin-top: 160px;
   height: 220px;
   width: 220px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .hero-content {
@@ -93,7 +93,7 @@ nav a {
   text-align: center;
   color: #ffffff;
   transition:0.3s;
-  font-family:Laxend;
+  font-family:Lexend;
 }
 
 .hero-content:hover {
@@ -117,15 +117,15 @@ nav a {
 }
 
 .hero button {
-  background-color: #ffffff;
+  background: linear-gradient(to right, red, orange, darkorange, darkviolet,blue);
   border: none;
   border-radius: 25px;
-  color: #2a2c34;
+  color: #fff;
   cursor: pointer;
   font-size: 18px;
   padding: 15px 30px;
   transition: all 0.3s ease;
-  font-family:Laxend;
+  font-family: Lexend;
 }
 
 .hero button:hover {
